@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Wewnętrzny arkusz stylów:</h1>
+        <ol>
+            <li>Gdzie jest wstawiany?</li>
+            <p>Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <.head>). </p>
+            <li>Składnia teoretyczna:</li>
+            <table border="2" cellpadding="0">
+                <tr>
+                    <td style="text-align: left;">
+                        <pre>
+            
+&lt;head&gt;
+    (...)
+        &lt;style type="text/css"&gt;
+        &lt;!-- < ![CDATA[ -->
+            selektor1 { cecha: wartość; cecha2: wartość2... }
+            selektor2 { cecha: wartość; cecha2: wartość2... }
+    (...)
+        /* ]]> */
+        &lt;/style&gt;
+    (...)
+&lt;/head&gt;
+                                    </pre>
+                                </td>
+                            </tr>
+            </table>
+            <li>Jakie mogą być selektory?</li>
+            <p>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka
+                tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi
+                znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.</p>
+            <li>Jakie mogą być cechy i wartości?</li>
+            <p>Cechami mogą być atrybuty HTML, np. color, font-size, align, margin, padding, border, background-color, etc. Wartością mogą być wartości liczbowe (np. 16px), kolory (np. red), czy też inne atrybuty HTML (np. align="center").</p>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Opis stylu wewnętrznego</h1>
+
+        <h2>1. Składnia teoretyczna</h2>
+        <table border="1" cellpadding="10">
+            <tr>
+                <td>
+                    <pre>
+&lt;style type="text/css"&gt;
+    selektor {
+        cecha: wartość;
+    }
+&lt;/style&gt;
+                    </pre>
+                </td>
+            </tr>
+        </table>
+
+        <h2>2. Gdzie wstawiany jest styl zewnętrzny?</h2>
+        <p>Styl zewnętrzny jest wstawiany w sekcji &lt;head&gt; dokumentu HTML za pomocą znacznika &lt;link&gt;. Znacznik &lt;link&gt; może występować wielokrotnie w dokumencie, aby podłączyć różne pliki CSS.</p>
+
+    <h2>3. Najprostsza forma wstawiania stylu zewnętrznego</h2>
+        <table border="1" cellpadding="10">
+            <tr>
+                <td>
+                    <pre>
+&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
+                    </pre>
+                </td>
+            </tr>
+        </table>
+
+        <h2>4. Ile arkuszy styli może być dołączanych do jednego dokumentu HTML?</h2>
+        <p>Do jednego dokumentu HTML można dołączyć wiele arkuszy styli. Ważne jest, aby zachować odpowiednią kolejność, ponieważ style z późniejszych arkuszy mogą nadpisywać te z wcześniejszych.</p>
+
+        <h2>5. Co się dzieje w przypadku konfliktów?</h2>
+        <p>W przypadku konfliktów, gdy te same style są definiowane w różnych arkuszach styli, obowiązuje zasada kaskadowości. Style z arkusza, który jest załadowany później, nadpisują te z wcześniejszych arkuszy.</p>
+
+        <h2>6. Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h2>
+        <p>Pliki arkuszy styli mogą być tworzone i edytowane za pomocą dowolnego edytora tekstowego, takiego jak Notepad++ czy Sublime Text. Wystarczy zapisać plik z rozszerzeniem .css.</p>
+
+        <h2>7. Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</h2>
+        <p>Specjalne edytory CSS, takie jak Adobe Dreamweaver, oferują zaawansowane funkcje do tworzenia i edytowania arkuszy styli, w tym podgląd na żywo i automatyczne uzupełnianie kodu.</p>
+        <h2>8. Jakie rozszerzenie posiadają pliki będące zewnętrznym arkuszem styli?</h2>
+        <p>Pliki będące zewnętrznym arkuszem styli posiadają rozszerzenie .css.</p>
+
+        <h2>9. Jakie są zalety zewnętrznego arkusza styli?</h2>
+        <ol>
+            <li>Umożliwia ponowne użycie tych samych stylów w wielu dokumentach HTML.</li>
+            <li>Ułatwia zarządzanie i aktualizację stylów, ponieważ zmiany w jednym pliku CSS wpływają na wszystkie dokumenty, które go używają.</li>
+        </ol>
+
+        <h2>10. Uwagi na temat pisania w CSS</h2>
+        <p>Podczas pisania w CSS ważne jest, aby stosować czytelne nazwy klas i identyfikatorów oraz unikać nadmiernego zagnieżdżania selektorów, co może prowadzić do trudności w utrzymaniu kodu.</p>
+    </body>
+</html>

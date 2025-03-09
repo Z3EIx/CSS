@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Rodzaje Selektrorów</title>
+</head>
+<body>
+   <h1>Rodzaje Selektrorów</h1>
+   <ol>
+      <li><strong> Selektor prosty (selektor typu):</strong>
+         <ul>
+            <li>Wybiera elementy na podstawie nazwy znacznika HTML.</li>
+            <li><strong>Przykład:</strong> <code>p { color: red; }</code> (wszystkie akapity będą czerwone).</li>
+         </ul>
+      </li>
+      <li><strong> Selektor uniwersalny:</strong>
+         <ul>
+            <li>Wybiera wszystkie elementy na stronie.</li>
+            <li><strong>Przykład:</strong> <code>* { margin: 0; padding: 0; }</code> (zeruje marginesy i paddingi dla wszystkich elementów).</li>
+         </ul>
+      </li>
+      <li><strong> Selektor potomka:</strong>
+         <ul>
+            <li>Wybiera elementy, które są potomkami innego elementu.</li>
+            <li><strong>Przykład:</strong> <code>div p { color: purple; }</code> (wszystkie akapity wewnątrz <code>div</code> będą fioletowe).</li>
+         </ul>
+      </li>
+      <li><strong> Selektor dziecka:</strong>
+         <ul>
+            <li>Wybiera elementy, które są bezpośrednimi dziećmi innego elementu.</li>
+            <li><strong>Przykład:</strong> <code>div > p { color: orange; }</code> (tylko akapity bezpośrednio wewnątrz <code>div</code> będą pomarańczowe).</li>
+         </ul>
+      </li>
+      <li><strong> Selektor braci:</strong>
+         <ul>
+            <li>Wybiera elementy, które są siostrzanymi elementami (braćmi) innego elementu.</li>
+            <li><strong>Przykład:</strong> <code>h1 ~ p { color: pink; }</code> (wszystkie akapity będące rodzeństwem <code>h1</code> będą różowe).</li>
+         </ul>
+      </li>
+      <strong><li> Selektor atrybutu:</strong>
+         <ul>
+            <li><strong>a) Prosty selektor atrybutu:</strong>
+               <ul>
+                  <li>Wybiera elementy na podstawie obecności atrybutu.</li>
+                  <li><strong>Przykład:</strong> <code>a[target] { color: brown; }</code> (wszystkie linki z atrybutem <code>target</code> będą brązowe).</li>
+               </ul>
+            </li>
+            <li><strong>b) Selektor atrybutu o określonej wartości:</strong>
+               <ul>
+                  <li>Wybiera elementy, których atrybut ma dokładnie określoną wartość.</li>
+                  <li><strong>Przykład:</strong> <code>a[href="https://example.com"] { color: teal; }</code> (linki z dokładnym adresem <code>https://example.com</code> będą turkusowe).</li>
+               </ul>
+            </li>
+            <li><strong>c) Selektor atrybutu zawierający określony wyraz:</strong>
+               <ul>
+                  <li>Wybiera elementy, których atrybut zawiera określony wyraz.</li>
+                  <li><strong>Przykład:</strong> <code>a[href*="example"] { color: navy; }</code> (linki zawierające w adresie słowo "example" będą granatowe).</li>
+               </ul>
+            </li>
+         </ul>
+      </li>
+      <li><strong> Selektory specjalne:</strong>
+         <ul>
+            <li><strong>a) Selektor klasy:</strong>
+               <ul>
+                  <li>Wybiera elementy na podstawie wartości atrybutu <code>class</code>.</li>
+                  <li><strong>Przykład:</strong> <code>.klasa { color: blue; }</code> (wszystkie elementy z klasą <code>klasa</code> będą niebieskie).</li>
+               </ul>
+            </li>
+            <li><strong>b) Pseudoklasy:</strong>
+               <ul>
+                  <li>Wybiera elementy w określonym stanie.</li>
+                  <li><strong>Przykład:</strong> <code>a:hover { color: yellow; }</code> (linki zmienią kolor na żółty po najechaniu myszką).</li>
+               </ul>
+            </li>
+            <li><strong>c) Selektor pseudoelementów:</strong>
+               <ul>
+                  <li><strong>- Pierwsza linia:</strong>
+                     <ul>
+                        <li>Wybiera pierwszą linię tekstu w elemencie.</li>
+                        <li><strong>Przykład:</strong> <code>p::first-line { color: gray; }</code> (pierwsza linia akapitu będzie szara).</li>
+                     </ul>
+                  </li>
+                  <li><strong>- Pierwsza litera:</strong>
+                     <ul>
+                        <li>Wybiera pierwszą literę tekstu w elemencie.</li>
+                        <li><strong>Przykład:</strong> <code>p::first-letter { font-size: 2em; }</code> (pierwsza litera akapitu będzie większa).</li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </li>
+   </ol>
+</body>
+</html>
