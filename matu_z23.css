@@ -1,0 +1,41 @@
+p#pogrubienie_matusiak {
+    font-weight: bold;
+    font-size: 33px;
+    color: #8760D4;
+  }
+  
+p#pochylona_matusiak {
+    font-style: italic;
+    font-size: 38pt;
+    color: #EBC270;
+  }
+  
+p#index_gorny_matusiak {
+    font-size: 1.3cm;
+    vertical-align: super;
+    color: #9B9020;
+  }
+  
+p#index_dolny_matusiak {
+    font-size: 2.1cm;
+    vertical-align: sub;
+    color: rgb(22%, 96%, 91%);
+  }
+  
+p#mono_matusiak {
+    font-family: monospace;
+    font-size: 43px;
+    color: #1BE070;
+  }
+  
+p#powiekszenie_matusiak {
+    text-align: center;
+    transform: scale(1.2);
+    color: #5540A2;
+  }
+  
+p#pomniejszenie_matusiak {
+    transform: scale(0.8);
+    color: rgb(73%, 64%, 24%);
+  }
+  
