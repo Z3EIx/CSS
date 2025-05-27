@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
+    </head>
     <style>
-        
-            
-
-        table, td, th{
-            border: 1px solid black;
+        table{
             border-collapse: collapse;
+            width: 100%;
+        }
+        td, th{
+            border: 1px solid black;
+            padding 8px;
+            text-align: left;
         }
     </style>
-</head>
-<body>
-    <table >
-        <thead>
-        <tr>   <th class="tdq">Pojęcie</th> <th>Znaczenie pojęcia</th></tr>
-        </thead>
-        <tbody>
+    <body>
+        <table>
             <tr>
-                <th class="tdq">Co znaczy skrót ID?</th><td>Indetyfikator</td>
+            <th><b>Pojęcie</b></th>
+            <th><b>Znaczenie pojęcia</b></th>
             </tr>
             <tr>
-                <th class="tdq">Jaki jest cel stosowania ID?</th><td>Jednorazowe nadanie formatowania do wszystkich elementow odpowiadającym użytemu selektorowi</td>
+                <td>Co znaczy skrót ID?</td>
+                <td>Indetyfikator</td>
             </tr>
             <tr>
-                <th class="tdq">Jakie jest znaczenie znaku #</th><td>Definiowania indetyfikatora</td>
+                <td>Jaki jest cel stosowania ID?</td>
+                <td>zróżnicowanie podobnych elementów</td>
             </tr>
             <tr>
-                <th class="tdq">Jak następuje wywowołanie ID?</th><td>Wywołanie identyfikatora to id="nazwa zdefiniowanego w CSS identyfikatora" czyli: Odpowiedni wpis składa się z selektora, do którego planujemy przypisać identyfikator, oraz z nazwy poprzedzonej znakiem #.</td>
+                <td>Jakie jest znaczenie znaku # </td>
+                <td>Odpowiedni wpis składa się z selektora, do którego planujemy przypisać identyfikator, oraz z nazwy poprzedzonej znakiem #.</td>
             </tr>
             <tr>
-                <th class="tdq">Uwagi na temat stosowania ID (3)</th>
-                <td><ol>
-                        <li>Różnica między id a class→Identyfikator może wystąpić tylko raz w całym dokumencie, natomiast klasę można powielać do woli. </li>
-                        <li>Podobnie jak klasy, identyfikatorów, możemy używać tyle razy, ile razy uznamy to za konieczne. Działanie takie jest błędem, ale nie wpływa na poprawność działania strony.</li>
-                        <li>ID musi być unikalne – na stronie może wystąpić tylko raz. Jeśli element może pojawić się wiele razy, lepiej użyć klasy (class), którą można przypisać do wielu elementów.</li>
-                    </ol>
-                </td>
+                <td>Jak następuje wywołanie ID (wraz z wytłumaczeniem)?</td>
+                <td>Odpowiedni wpis składa się z selektora, do którego planujemy przypisać identyfikator, oraz z nazwy poprzedzonej znakiem #.</td>
             </tr>
-        </tbody>
-    </table>
-</body>
+            <tr>
+                <td>Uwagi na temat stosowania ID (trzy) konieczne wyliczenia.</td>
+                <td>Różnica między id a class→Identyfikator może wystąpić tylko raz w całym
+                    dokumencie, natomiast klasę można powielać do woli.
+                    • Podobnie jak klasy, identyfikatorów, możemy używać tyle razy, ile razy uznamy to za
+                    konieczne. Działanie takie jest błędem, ale nie wpływa na poprawność działania
+                    strony.
+                    • Elementy oznaczone ID muszą być unikatowe, tzn., że na jednej stronie może
+                    wystąpić tylko 1 element z takim ID. Jeśli nie mamy pewności, czy element wystąpi
+                    więcej niż raz to możemy bez obaw użyć 'class', które może być przypisane do
+                    nieskończenie wielu elementów na stronie.
+                    </td>
+            </tr>
+        </table>
+    </body>
 </html>

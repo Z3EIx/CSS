@@ -1,0 +1,16 @@
+p{
+    color: red;
+    font-size: 22pt;
+}
+p#gruby_matusiak{
+    color: green;
+    font-size: 17pt;
+    font-weight: bolder;
+}
+#dlawszystkich_matusiak{
+    color: #a8a80a;
+    font-size: 10pt;
+    font-family: Arial;
+}
+
+/*DawidMatusiak*\

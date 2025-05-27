@@ -1,0 +1,31 @@
+p#pogrubienie_matusiak{
+    font-weight: bolder;
+    font-size: 32px;
+    color: #875ED4;
+}
+p#pochylona_matusiak{
+    font-style: italic;
+    font-size: 38pt;
+    color: #EBC278;
+}
+p#index_gorny_matusiak{
+    vertical-align: super;
+    font-size: 4.8cm;
+    color: #9B9020;
+}
+p#index_dolny_matusiak{
+    vertical-align: sub;
+    font-size: 5.6cm;
+    color: rgb(22%, 96%, 91%)
+}
+p#mono_matusiak{
+    font-family: monospace;
+    font-size: 43px;
+    color: #1DE070;
+}
+p#powiekszenie_matusiak{  
+    color: #5740A0;
+}
+p#pomniejszenie_matusiak{
+    color: rgb(73%, 64%, 24%);
+}

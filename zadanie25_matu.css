@@ -1,0 +1,46 @@
+p#akapit1_matusiak {
+    text-align: center;
+    font-family: serif;
+    color: #FFC0CB; 
+    text-indent: 2cm;
+    line-height: 1cm;
+    word-spacing: 12px;
+    letter-spacing: 5ex;
+}
+
+.z1_matusiak {
+    font-variant: small-caps;
+    font-weight: 900;
+    font-style: italic;
+    font-size: large;
+    text-decoration: overline;
+}
+
+.z2_matusiak {
+    font-weight: 200;
+    font-size: x-small;
+    text-transform: uppercase;
+}
+
+
+p#akapit2_matusiak {
+    font-family: sans-serif;
+    color: #FFA07A; 
+    text-indent: 25mm;
+    line-height: 15mm;
+    word-spacing: 10pt;
+    letter-spacing: 0.5cm;
+}
+
+
+.z4_matusiak {
+    font-weight: 700;
+    font-size: medium;
+    text-decoration: line-through;
+}
+
+.z5_matusiak {
+    font-weight: 300;
+    font-size: 20px;
+    font-style: oblique;
+}
